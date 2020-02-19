@@ -1,0 +1,856 @@
+/* -------------------------------------------------------------------------------------------------------- */
+
+/* ----------------------------------------------- INDEX ------------------------------------------------- */
+
+/* -------------------------------------------------------------------------------------------------------- */
+
+body {
+  padding-top: 56px;
+}
+
+.IndexBody .text-warning {
+  color: #ffc107 !important;
+  font-size: 15px;
+}
+
+.IndexBody .single-well video {
+  display: block;
+}
+
+.IndexBody .single-well ul li {
+  color: #444;
+  display: block;
+  padding: 5px 0;
+}
+
+.IndexBody .single-well ul li i {
+  color: #3EC1D5;
+  padding-right: 10px;
+  font-size: 12px;
+}
+
+.IndexBody .single-well p {
+  color: #444;
+}
+
+/* -------------------------------------------------------------------------------------------------------- */
+
+/* ----------------------------------------------- HEADER ------------------------------------------------- */
+
+/* -------------------------------------------------------------------------------------------------------- */
+
+.HeaderUniversal .navbar-brand {
+  font-weight: bold;
+}
+
+.HeaderUniversal nav ul li a {
+  color: white;
+  padding: 5px 10px;
+  margin-left: 5px;
+  -webkit-transition: all 300ms ease;
+  -o-transition: all 300ms ease;
+  transition: all 300ms ease;
+  border-radius: 50px;
+}
+
+.HeaderUniversal nav ul li button {
+  color: white;
+  padding: 5px 10px;
+  margin-left: 5px;
+  -webkit-transition: all 300ms ease;
+  -o-transition: all 300ms ease;
+  transition: all 300ms ease;
+  border-radius: 50px;
+}
+
+.HeaderUniversal nav ul li button {
+  color: #3b4652;
+  border: 1px solid white;
+  display: block;
+  -webkit-transition: all 300ms ease;
+  -o-transition: all 300ms ease;
+  transition: all 300ms ease;
+  border-radius: 50px;
+}
+
+.HeaderUniversal nav ul li .btn-group .dropdown-menu .botonesmenu a {
+  color: black;
+  text-align: center;
+  display: block;
+  margin: 0;
+  padding: 2;
+  -webkit-transition: all 300ms ease;
+  -o-transition: all 300ms ease;
+  transition: all 300ms ease;
+  border-radius: 50px;
+}
+
+.HeaderUniversal nav ul li .btn-group .dropdown-menu .botonesmenu a:hover {
+  color: white;
+  text-decoration: none;
+  background: #1D7CF2;
+}
+
+.HeaderUniversal nav ul li .btn-group .dropdown-menu .botonesmenu img {
+  max-width: 50px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.HeaderUniversal nav ul li a:hover {
+  color: white;
+  text-decoration: none;
+  background: #1D7CF2;
+}
+
+.HeaderUniversal nav ul li button:hover {
+  color: white;
+  border: 1px solid #1D7CF2;
+  text-decoration: none;
+  background: #1D7CF2;
+}
+
+/* -------------------------------------------------------------------------------------------------------- */
+
+/* ----------------------------------------------- FOOTER ------------------------------------------------- */
+
+/* -------------------------------------------------------------------------------------------------------- */
+
+.FooterUniversal {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.FooterUniversal footer p .MarcaReg {
+  font-size: 16px;
+}
+
+.FooterUniversal footer .Footer-icons ul li {
+  display: inline-block;
+}
+
+.FooterUniversal footer .Footer-icons ul li a {
+  border: 1px solid white;
+  color: white;
+  display: block;
+  font-size: 25px;
+  height: 40px;
+  line-height: 38px;
+  margin-right: 5px;
+  text-align: center;
+  width: 40px;
+  border-radius: 50%;
+}
+
+.FooterUniversal footer .Footer-icons ul .Facebook-Icon a:hover {
+  color: white;
+  background: #1D7CF2;
+}
+
+.FooterUniversal footer .Footer-icons ul .Twitter-Icon a:hover {
+  color: #1D7CF2;
+  background: white;
+}
+
+.FooterUniversal footer .Footer-icons ul .Pinterest-Icon a:hover {
+  color: white;
+  background: red;
+}
+
+.FooterUniversal footer .Footer-icons ul .Instagram-Icon a:hover {
+  color: white;
+  vertical-align: middle;
+  background: #d6249f;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, .25);
+}
+
+.Barra-Footer {
+  height: 2px;
+  color: white;
+  background-color: white;
+  border: none;
+}
+
+/* -------------------------------------------------------------------------------------------------------- */
+
+/* ------------------------------------------------ LOGIN ------------------------------------------------- */
+
+/* -------------------------------------------------------------------------------------------------------- */
+
+.LoginBody {
+  margin-top: -40px;
+  background: url(../Imagenes/fondologin.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+.VistaLogin .user-img {
+  margin-top: -50px;
+  margin-bottom: 35px;
+}
+
+.VistaLogin .user-img img {
+  width: 150px;
+  height: 150px;
+}
+
+.VistaLogin .modal-content {
+  background-color: #3b4652;
+  opacity: .95;
+  width: 470px;
+  margin-left: -65px;
+  padding: 0 20px 10px;
+  box-shadow: 0px 0px 100px black;
+}
+
+.VistaLogin .main-section {
+  margin: 0 auto;
+  margin-top: 25%;
+  padding: 0;
+  border-radius: 50%;
+}
+
+.VistaLogin .form-group input {
+  height: 42px;
+  width: 400px;
+  font-size: 18px;
+  border: 0;
+  padding-left: 50px;
+  border-radius: 25px;
+}
+
+.VistaLogin .form-group::before {
+  font-family: "Font Awesome\ 5 Free";
+  position: absolute;
+  left: 28px;
+  font-size: 22px;
+  padding-top: 4px;
+}
+
+.VistaLogin .form-group#user-group::before {
+  content: "\f0e0";
+}
+
+.VistaLogin .form-group#password-group::before {
+  content: "\f023";
+}
+
+.VistaLogin button {
+  width: 60%;
+  margin: 5px 0 25px;
+}
+
+.VistaLogin .forgot {
+  padding: 5px 0;
+}
+
+.VistaLogin .forgot a {
+  color: white;
+}
+
+.VistaLogin .not_registered p {
+  color: white;
+}
+
+.VistaLogin a {
+  padding: 2px 10px 2px 10px;
+  -webkit-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
+  border-radius: 50px;
+}
+
+.VistaLogin a:hover {
+  color: white;
+  text-decoration: none;
+  background: #1D7CF2;
+}
+
+.VistaLogin .not_registered hr {
+  height: 2px;
+  color: white;
+  background-color: white;
+  border: none;
+}
+
+/* -------------------------------------------------------------------------------------------------------- */
+
+/* ------------------------------------------------ REGISTRO ---------------------------------------------- */
+
+/* -------------------------------------------------------------------------------------------------------- */
+
+.RegistroBody {
+  margin-top: -40px;
+  background: url(../Imagenes/fondologin.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+.VistaRegistro h1 {
+  color: white;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.VistaRegistro .modal-content {
+  background-color: #3b4652;
+  opacity: .95;
+  width: 470px;
+  margin-left: -65px;
+  padding: 0 20px 10px;
+  box-shadow: 0px 0px 100px black;
+}
+
+.VistaRegistro .main-section {
+  margin: 0 auto;
+  margin-top: 25%;
+  padding: 0;
+  border-radius: 50%;
+}
+
+.VistaRegistro .form-group input {
+  height: 42px;
+  width: 400px;
+  font-size: 18px;
+  border: 0;
+  padding-left: 50px;
+  border-radius: 25px;
+}
+
+.VistaRegistro .form-group::before {
+  font-family: "Font Awesome\ 5 Free";
+  position: absolute;
+  left: 28px;
+  font-size: 22px;
+  padding-top: 4px;
+}
+
+.VistaRegistro .form-group#user-group::before {
+  content: "\f007";
+}
+
+.VistaRegistro .form-group#password-group::before {
+  content: "\f023";
+}
+
+.VistaRegistro .form-group#user-name::before {
+  content: "\f0e0"
+}
+
+.VistaRegistro button {
+  width: 60%;
+  margin: 5px 0 25px;
+}
+
+.VistaRegistro .registered p {
+  color: white;
+}
+
+.VistaRegistro a {
+  padding: 2px 10px 2px 10px;
+  -webkit-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
+  border-radius: 50px;
+}
+
+.VistaRegistro a:hover {
+  color: white;
+  text-decoration: none;
+  background: #1D7CF2;
+}
+
+.VistaRegistro .registered hr {
+  height: 2px;
+  color: white;
+  background-color: white;
+  border: none;
+}
+
+/* -------------------------------------------------------------------------------------------------------- */
+
+/* ------------------------------------------------- TIENDA ----------------------------------------------- */
+
+/* -------------------------------------------------------------------------------------------------------- */
+
+.TiendaBody {
+  margin-top: 35px;
+}
+
+.TiendaBody .text-warning {
+  color: #ffc107 !important;
+  font-size: 15px;
+}
+
+.TiendaBody .single-awesome-project {
+  overflow: hidden;
+}
+
+.TiendaBody .awesome-img-tienda {
+  display: block;
+  width: 100%;
+  height: 200px;
+  position: relative;
+  max-height: 100%;
+  width: auto;
+}
+
+.TiendaBody .awesome-img-tienda img{
+  width: 100%;
+  height: 200px;
+  position: relative;
+  max-height: 100%;
+  width: auto;
+}
+
+.TiendaBody .DetalleImagen {
+  display: block;
+  width: 70%;
+  height: 70%;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.TiendaBody .single-awesome-project:hover .awesome-img-tienda>a::after {
+  opacity: 1;
+}
+
+.TiendaBody .single-awesome-project:hover .add-actions {
+  opacity: 1;
+  bottom: 0;
+}
+
+.TiendaBody .awesome-img-tienda>a::after {
+  background: rgba(0, 0, 0, 0.7) none repeat scroll 0 0;
+  content: "";
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  opacity: 0;
+  transition: 0.4s;
+}
+
+.TiendaBody .add-actions {
+  background: rgba(0, 0, 0, 0.6) none repeat scroll 0 0;
+  bottom: 30px;
+  display: block;
+  height: 100%;
+  left: 0;
+  opacity: 0;
+  overflow: hidden;
+  padding: 10px 50px;
+  position: absolute;
+  transition: all 0.4s ease 0s;
+  width: 100%;
+}
+
+.TiendaBody .project-dec h1:hover {
+  color: white;
+}
+
+.TiendaBody .project-dec h1 {
+  color: white;
+  font-size: 50px;
+  margin-top: -100px;
+  padding-top: 60%;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+.TiendaBody .MarcaModelo h4 {
+  color: #1D7CF2;
+}
+
+.TiendaBody .ProductoPrecio h5 span {
+  color: rgb(8, 252, 0);
+}
+
+.TiendaBody .ProductoDato h5 span {
+  color: #1D7CF2;
+}
+
+.TiendaBody .EmpleadoDato h6 span {
+  color: #1D7CF2;
+}
+
+/* -------------------------------------------------------------------------------------------------------- */
+
+/* ------------------------------------------------ NOSOTROS ---------------------------------------------- */
+
+/* -------------------------------------------------------------------------------------------------------- */
+
+.Nosotros img {
+  max-width: 100%;
+  height: auto;
+}
+
+.Nosotros .single-icon span {
+  border: 1px solid white;
+  color: #1D7CF2;
+  display: block;
+  font-size: 30px;
+  height: 40px;
+  line-height: 38px;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.Nosotros a:hover {
+  color: #1D7CF2;
+  text-decoration: none;
+}
+
+.Nosotros .area-padding {
+  padding: 10px 0px 10px;
+}
+
+.Nosotros .section-headline h2 {
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.Nosotros .single-well ul li {
+  display: block;
+  padding: 2px 0;
+}
+
+.Nosotros .single-well ul li span {
+  color: #1D7CF2;
+}
+
+.Nosotros .single-awesome-portfolio {
+  float: left;
+  overflow: hidden;
+  padding: 15px;
+  width: 25%;
+  position: relative;
+}
+
+.Nosotros .single-awesome-project {
+  overflow: hidden;
+}
+
+.Nosotros .awesome-img img{
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.Nosotros .single-awesome-project:hover .awesome-img>a::after {
+  opacity: 1;
+}
+
+.Nosotros .single-awesome-project:hover .add-actions img{
+  opacity: 1;
+  bottom: 0;
+}
+
+.Nosotros .awesome-img>a::after {
+  background: rgba(0, 0, 0, 0.7) none repeat scroll 0 0;
+  content: "";
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  opacity: 0;
+  transition: 0.4s;
+}
+
+.Nosotros .add-actions {
+  background: rgba(0, 0, 0, 0.6) none repeat scroll 0 0;
+  bottom: 30px;
+  display: block;
+  height: 100%;
+  left: 0;
+  opacity: 0;
+  overflow: hidden;
+  padding: 10px 50px;
+  position: absolute;
+  transition: all 0.4s ease 0s;
+  width: 100%;
+}
+
+.Nosotros .project-dec h4:hover {
+  color: white;
+}
+
+.Nosotros .project-dec h4 {
+  color: white;
+  font-size: 20px;
+  margin-top: -100px;
+  padding-top: 50%;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+.Nosotros .project-dec span {
+  color: white;
+  font-size: 13px;
+}
+
+.Nosotros .suscribe-area {
+  background: #1D7CF2 none repeat scroll 0 0;
+  padding: 30px 0;
+}
+
+.Nosotros .suscribe-text h3 {
+  color: #fff;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.Nosotros .sus-btn {
+  background: #fff none repeat scroll 0 0;
+  border: 2px solid #fff;
+  color: #1D7CF2;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 700;
+  margin-left: 100px;
+  padding: 10px 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 30px;
+}
+
+.Nosotros .sus-btn:hover {
+  background: #1D7CF2 none repeat scroll 0 0;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+/* -------------------------------------------------------------------------------------------------------- */
+
+/* ------------------------------------------------ SIDEBAR ----------------------------------------------- */
+
+/* -------------------------------------------------------------------------------------------------------- */
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 55px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 8px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: white;
+  text-decoration: none;
+  background: #1D7CF2;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 5px;
+  }
+  .sidenav a {
+    font-size: 10px;
+  }
+}
+
+.SideBarBtn {
+  background: #fff;
+  color: black;
+  border: 1px solid #fff;
+  border-radius: 50%;
+}
+
+/* .sidebar {
+  width: 90px !important;
+  background-color: #212529;
+  min-height: calc(100vh - 56px);
+} */
+
+/* .sidebar .nav-item:last-child {
+  margin-bottom: 1rem;
+} */
+
+/* .sidebar .nav-item .nav-link {
+  text-align: center;
+  padding: 0.75rem 1rem;
+  width: 20px;
+} */
+
+/* .sidebar .nav-item .nav-link span {
+  font-size: 0.65rem;
+  display: block;
+} */
+
+/* .sidebar .nav-item .dropdown-menu {
+  position: absolute !important;
+  -webkit-transform: none !important;
+  transform: none !important;
+  left: calc(90px + 0.5rem) !important;
+  margin: 0;
+}
+
+.sidebar .nav-item .dropdown-menu.dropup {
+  bottom: 0;
+  top: auto !important;
+}
+
+.sidebar .nav-item.dropdown .dropdown-toggle::after {
+  display: none;
+} */
+
+/* .sidebar .nav-item .nav-link {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.sidebar .nav-item .nav-link:active, .sidebar .nav-item .nav-link:focus, .sidebar .nav-item .nav-link:hover {
+  color: rgba(255, 255, 255, 0.75);
+} */
+
+/* .sidebar.toggled {
+  width: 0 !important;
+  overflow: hidden;
+} */
+
+@media (min-width: 768px) {
+  /* .sidebar {
+    width: 225px !important;
+  } */
+  .sidebar .nav-item .nav-link {
+    display: block;
+    width: 100%;
+    text-align: left;
+    padding: 1rem;
+    width: 225px;
+  }
+  .sidebar .nav-item .nav-link span {
+    font-size: 1rem;
+    display: inline;
+  }
+  /* .sidebar .nav-item .dropdown-menu {
+    position: static !important;
+    margin: 0 1rem;
+    top: 0;
+  } */
+  /* .sidebar .nav-item.dropdown .dropdown-toggle::after {
+    display: block;
+  }
+  .sidebar.toggled {
+    overflow: visible;
+    width: 90px !important;
+  }
+  .sidebar.toggled .nav-item:last-child {
+    margin-bottom: 1rem;
+  }
+  .sidebar.toggled .nav-item .nav-link {
+    text-align: center;
+    padding: 0.75rem 1rem;
+    width: 90px;
+  } */
+  /* .sidebar.toggled .nav-item .nav-link span {
+    font-size: 0.65rem;
+    display: block;
+  } */
+  /* .sidebar.toggled .nav-item .dropdown-menu {
+    position: absolute !important;
+    -webkit-transform: none !important;
+    transform: none !important;
+    left: calc(90px + 0.5rem) !important;
+    margin: 0;
+  } */
+  /* .sidebar.toggled .nav-item .dropdown-menu.dropup {
+    bottom: 0;
+    top: auto !important;
+  } */
+  /* .sidebar.toggled .nav-item.dropdown .dropdown-toggle::after {
+    display: none;
+  } */
+}
+
+/* body.sidebar-toggled footer.sticky-footer {
+  width: 100%;
+} */
+
+@media (min-width: 768px) {
+  body.sidebar-toggled footer.sticky-footer {
+    width: calc(100% - 90px);
+  }
+}
+
+/* -------------------------------------------------------------------------------------------------------- */
+
+/* ---------------------------------------------- EMPLEADOS ----------------------------------------------- */
+
+/* -------------------------------------------------------------------------------------------------------- */
+
+.Lista_Empleados {
+  margin-top: 35px;
+}
+
+.Empleados_Agregar {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.Lista_Empleados {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.Lista_Empleados p {
+  font-size: 20px;
+  text-align: justify;
+}
+
+.Lista_Empleados ul li {
+  display: block;
+}
+
+.Lista_Empleados span {
+  color: #1D7CF2;
+  font-weight: bold;
+}
+
+.TiendaBody .single-awesome-project-empleado {
+  overflow: hidden;
+}
+
+.TiendaBody .awesome-img-empleado img{
+  height: 250px;
+  width: auto;
+}
+
+.Lista_Empleados hr {
+  height: 2px;
+  color: #3b4652;
+  background-color: #3b4652;
+  border: none;
+}
+
+/* -------------------------------------------------------------------------------------------------------- */
+
+/* ---------------------------------------------- Producto ------------------------------------------------ */
+
+/* -------------------------------------------------------------------------------------------------------- */
